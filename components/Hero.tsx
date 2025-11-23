@@ -297,6 +297,17 @@ const Hero: React.FC = () => {
   return (
     <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-transparent">
       <style>{`
+        .canvas-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            cursor: move;
+        }
         .gold-text-shimmer {
             background: linear-gradient(
                 to right,
@@ -324,7 +335,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* 3D Background */}
-      <div className="absolute top-0 left-0 right-0 bottom-0 z-10 cursor-move">
+      <div className="canvas-wrapper">
         <Canvas shadows camera={{ position: [0, 0, 6], fov: 35 }} gl={{ antialias: false }}>
             <ambientLight intensity={1} />
             
