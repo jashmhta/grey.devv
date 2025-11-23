@@ -304,9 +304,12 @@ const Hero: React.FC = () => {
             right: 0;
             bottom: 0;
             width: 100%;
-            height: 100%;
             z-index: 10;
             cursor: move;
+        }
+        .canvas-wrapper > div {
+            width: 100% !important;
+            height: 100% !important;
         }
         .gold-text-shimmer {
             background: linear-gradient(
