@@ -350,6 +350,9 @@ const Hero: React.FC = () => {
             {/* Subtle Rim Light */}
             <hemisphereLight color="#ffffff" groundColor="#000000" intensity={0.3} position={[5, 10, 2]} />
             
+            {/* Center illumination for DigitalCore */}
+            <pointLight position={[0, 0, 3]} intensity={8} color="#ffffff" distance={10} decay={2} />
+            
             <Suspense fallback={<LoadingSpinner />}>
                 <GeometricBackground />
                 <DigitalCore />
