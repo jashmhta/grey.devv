@@ -1,0 +1,38 @@
+{
+  "video_01": {
+    "filename": "video_01.mp4",
+    "title": "Fashion Editorial / Fluid Dynamics",
+    "usage": "VOGUE NOIR project, Labs experiment, Showreel",
+    "prompt": "Cinematic fashion editorial scene with abstract fluid dynamics simulation. Dark moody lighting with high contrast black and white aesthetic. Flowing silk fabric materials moving gracefully in elegant slow motion. Minimal color palette with occasional gold and amber highlights. Luxury high-fashion editorial style. Professional studio lighting creating dramatic shadows. Sophisticated and refined movement. Seamless looping animation. 4K quality, 10-15 seconds."
+  },
+  "video_02": {
+    "filename": "video_02.mp4",
+    "title": "Automotive / 3D Hypercar",
+    "usage": "VELOCITÀ hypercar configurator",
+    "prompt": "Cinematic 3D render of a luxury hypercar in dark minimalist studio environment. Sleek metallic surfaces with dramatic rim lighting. Camera slowly orbiting around the vehicle revealing elegant curves. Dark grey and black tones with gold accent lighting. Ray-traced reflections on polished carbon fiber and metal surfaces. High-end automotive product visualization. Professional automotive photography style. Minimalist luxury aesthetic. Seamless looping animation. 4K quality, 10-15 seconds."
+  },
+  "video_03": {
+    "filename": "video_03.mp4",
+    "title": "AI Neural Network / Web3 Crypto",
+    "usage": "ETHER blockchain DApp, Neural style experiment",
+    "prompt": "Abstract neural network visualization with dark futuristic aesthetic. Glowing nodes and connections forming complex network patterns. Dark grey and black background with cyan blue and amber gold light particles flowing. Liquid metal textures morphing and flowing organically. AI and blockchain inspired digital visualization. Minimalist high-tech design with smooth animated transitions. Futuristic interface elements. Seamless looping animation. 4K quality, 10-15 seconds."
+  },
+  "video_04": {
+    "filename": "video_04.mp4",
+    "title": "Fine Dining / Hospitality",
+    "usage": "EMBER & OAK Michelin restaurant",
+    "prompt": "Cinematic fine dining scene in dark luxury restaurant setting. Elegant table with dramatic moody lighting. Slow motion close-up of glowing flames from candles and fire embers. Dark wood and black surfaces with warm amber and orange lighting. Michelin-star culinary aesthetic. Professional food photography style with shallow depth of field. Sophisticated and intimate atmosphere. Smoke wisps rising elegantly. Seamless looping animation. 4K quality, 10-15 seconds."
+  },
+  "video_05": {
+    "filename": "video_05.mp4",
+    "title": "Finance / Trading Terminal / Fractals",
+    "usage": "QUANTUM trading app, Ray marching experiment",
+    "prompt": "Abstract 3D fractal ray marching animation with infinite tunnel effect. Dark geometric patterns morphing and evolving continuously. Black background with golden and cyan light trails creating hypnotic patterns. Mathematical visualization with smooth camera movement traveling through fractal space. Minimalist high-tech aesthetic. Financial data visualization elements subtly integrated. Futuristic trading terminal interface style. Seamless looping animation. 4K quality, 10-15 seconds."
+  },
+  "video_06": {
+    "filename": "video_06.mp4",
+    "title": "Luxury Real Estate / Architecture",
+    "usage": "ESTATE GOLD Sotheby's real estate",
+    "prompt": "Cinematic architectural visualization of luxury modern building with brutalist design. Dark concrete and glass materials with clean geometric forms. Dramatic lighting with golden hour warm sunlight creating long shadows. Slow elegant camera movement revealing minimalist architectural details. High-end contemporary architecture. Dark grey and black concrete tones with warm gold accent lighting. Professional architectural rendering style. Sophisticated and refined composition. Seamless looping animation. 4K quality, 10-15 seconds."
+  }
+}

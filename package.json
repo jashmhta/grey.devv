@@ -1,0 +1,36 @@
+{
+  "name": "grey---luxury-digital-agency",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@motionone/utils": "^10.18.0",
+    "@react-three/drei": "9.99.0",
+    "@react-three/fiber": "8.15.16",
+    "@react-three/postprocessing": "2.16.2",
+    "@studio-freight/lenis": "1.0.29",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.554.0",
+    "postprocessing": "6.35.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "2.0.4",
+    "react-router-dom": "6.22.3",
+    "three": "0.160.0",
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
