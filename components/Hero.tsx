@@ -324,8 +324,8 @@ const Hero: React.FC = () => {
       </div>
 
       {/* 3D Background */}
-      <div className="absolute inset-0 z-10 cursor-move w-full h-full">
-        <Canvas shadows camera={{ position: [0, 0, 6], fov: 35 }} gl={{ antialias: false }} className="w-full h-full">
+      <div className="absolute top-0 left-0 right-0 bottom-0 z-10 cursor-move">
+        <Canvas shadows camera={{ position: [0, 0, 6], fov: 35 }} gl={{ antialias: false }}>
             <ambientLight intensity={1} />
             
             {/* Dynamic Lighting Setup */}
