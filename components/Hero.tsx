@@ -252,12 +252,13 @@ function DigitalCore() {
         <mesh ref={coreRef} castShadow receiveShadow scale={2.0}>
             <icosahedronGeometry args={[1, 15]} /> 
             <MeshDistortMaterial 
-                color="#111111" 
-                roughness={0.1} 
-                metalness={1} 
+                color="#333333" 
+                roughness={0.2} 
+                metalness={0.9} 
                 distort={0.4} 
                 speed={1.8} 
-                envMapIntensity={2}
+                emissive="#222222"
+                emissiveIntensity={0.3}
             />
         </mesh>
         
@@ -268,11 +269,11 @@ function DigitalCore() {
                 color="#d4af37"
                 wireframe
                 transparent
-                opacity={0.1}
+                opacity={0.3}
                 metalness={1}
                 roughness={0}
                 emissive="#d4af37"
-                emissiveIntensity={0.05}
+                emissiveIntensity={0.2}
             />
         </mesh>
       </Float>
