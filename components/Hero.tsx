@@ -353,6 +353,8 @@ const Hero: React.FC = () => {
             {/* Center illumination for DigitalCore */}
             <pointLight position={[0, 0, 3]} intensity={8} color="#ffffff" distance={10} decay={2} />
             
+            <Environment preset="studio" />
+            
             <Suspense fallback={<LoadingSpinner />}>
                 <GeometricBackground />
                 <DigitalCore />
