@@ -349,8 +349,6 @@ const Hero: React.FC = () => {
             {/* Subtle Rim Light */}
             <hemisphereLight color="#ffffff" groundColor="#000000" intensity={0.3} position={[5, 10, 2]} />
             
-            <Environment preset="studio" />
-            
             <Suspense fallback={<LoadingSpinner />}>
                 <GeometricBackground />
                 <DigitalCore />
