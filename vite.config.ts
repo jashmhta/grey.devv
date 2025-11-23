@@ -27,6 +27,15 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
+      },
+      publicDir: 'assets',
+      build: {
+        assetsInlineLimit: 0,
+        rollupOptions: {
+          output: {
+            assetFileNames: 'assets/[name]-[hash][extname]'
+          }
+        }
       }
     };
 });
