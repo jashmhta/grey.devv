@@ -301,9 +301,8 @@ const Hero: React.FC = () => {
             position: absolute;
             top: 0;
             left: 0;
-            right: 0;
-            bottom: 0;
             width: 100%;
+            height: 100vh;
             z-index: 10;
             cursor: move;
         }
