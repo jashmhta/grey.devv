@@ -201,9 +201,11 @@ function ArchitecturalRings() {
     const materialProps = {
         color: "#ffffff",
         transparent: true,
-        opacity: 0.15,
-        metalness: 1,
-        roughness: 0,
+        opacity: 0.4,
+        metalness: 0.5,
+        roughness: 0.2,
+        emissive: "#ffffff",
+        emissiveIntensity: 0.15,
         side: THREE.DoubleSide
     };
 
@@ -353,7 +355,11 @@ const Hero: React.FC = () => {
             {/* Center illumination for DigitalCore */}
             <pointLight position={[0, 0, 3]} intensity={8} color="#ffffff" distance={10} decay={2} />
             
-            <Environment preset="studio" />
+            {/* Rim lights to illuminate ArchitecturalRings */}
+            <pointLight position={[5, 5, 5]} intensity={2} color="#ffffff" />
+            <pointLight position={[-5, -5, 5]} intensity={2} color="#ffffff" />
+            <pointLight position={[5, -5, 5]} intensity={2} color="#ffffff" />
+            <pointLight position={[-5, 5, 5]} intensity={2} color="#ffffff" />
             
             <Suspense fallback={<LoadingSpinner />}>
                 <GeometricBackground />
