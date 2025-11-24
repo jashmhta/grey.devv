@@ -50,7 +50,7 @@ const Vision: React.FC = () => {
             className="relative h-[600px] rounded-sm overflow-hidden order-1 lg:order-2 group"
           >
               <ImageReveal 
-                src="/jash.jpg" 
+                src="/assets/jash.jpg" 
                 alt="Jash Mehta" 
                 className="w-full h-full object-cover filter grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
                 containerClassName="w-full h-full"

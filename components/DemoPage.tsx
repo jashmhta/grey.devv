@@ -418,7 +418,7 @@ const SaaSEngine = ({ project, content }: { project: Project, content: any }) =>
                 <div className="p-6 border-t border-white/5 bg-black/20">
                     <div className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-full bg-neutral-700 overflow-hidden border border-white/10">
-                            <ImageReveal src="/jash.jpg" alt="Admin" className="w-full h-full object-cover" containerClassName="w-full h-full" />
+                            <ImageReveal src="/assets/jash.jpg" alt="Admin" className="w-full h-full object-cover" containerClassName="w-full h-full" />
                         </div>
                         <div>
                             <div className="text-sm font-bold text-white">Jash Mehta</div>

@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => {
         strictPort: false,
         allowedHosts: [
           '3000-igxfm3kcmpu4yd7gmoe4t-5550151e.manus-asia.computer',
+          '3000-i3ppsbyrhqwr3n5ziaxz4-3f73e095.manus-asia.computer',
           'localhost',
           '127.0.0.1'
         ],
@@ -28,7 +29,7 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, '.'),
         }
       },
-      publicDir: 'assets',
+      publicDir: 'public',
       build: {
         assetsInlineLimit: 0,
         rollupOptions: {

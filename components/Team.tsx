@@ -23,7 +23,7 @@ const Team: React.FC = () => {
                 className="relative h-[600px] w-full"
             >
                 <ImageReveal 
-                    src="/jash.jpg" 
+                    src="/assets/jash.jpg" 
                     alt="Jash Mehta"
                     className="w-full h-full object-cover filter grayscale contrast-125 hover:grayscale-0 transition-all duration-1000"
                     containerClassName="w-full h-full"
